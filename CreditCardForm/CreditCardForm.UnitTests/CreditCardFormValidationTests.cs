@@ -5,7 +5,7 @@ using CreditCardForm.Model;
 
 namespace CreditCardForm.UnitTests
 {
-    public class CreditCardFormServiceTests
+    public class CreditCardFormValidationTests
     {
         [Fact]
         public void ShouldReturnValid()
@@ -97,7 +97,7 @@ namespace CreditCardForm.UnitTests
             var result = creditCardValidator.Validate(testCreditCard);
             Assert.False(result.IsValid);
         }
-        
+
         [Fact]
         public void ShouldReturnInValidWhenDateIsBefore()
         {
@@ -107,7 +107,7 @@ namespace CreditCardForm.UnitTests
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
                 .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
-                .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today.AddYears(-1),DateTime.Today));
+                .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today.AddYears(-1), DateTime.Today));
 
             var creditCardValidator = new CreditCardValidator();
             var result = creditCardValidator.Validate(testCreditCard);
