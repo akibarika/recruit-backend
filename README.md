@@ -1,4 +1,27 @@
-# Backend
+# Credit Card Form Backend
+
+This is the backend API for my frontend app.🚀🚀
+
+---
+
+## Features
+
+- .Net Core 3.1
+
+- MongoDB Driven
+
+- xUnit + Bogus + Fluent
+
+- Swagger API Documentation included
+
+## Setup
+
+Please make sure .NET Core 3.1 installed.
+
+## TLDR
+
+---
+
 Create an API to receive the data captured in the frontend.
 
 We recommend using C#, .Net Core, and WebAPI to build this API.
