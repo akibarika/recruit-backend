@@ -7,7 +7,6 @@ namespace CreditCardForm.Model
     {
         public CreditCardValidator()
         {
-            RuleFor(x => x.Id).NotEmpty();
             RuleFor(x => x.CardNumber).CreditCard().NotEmpty();
             RuleFor(x => x.Name).MaximumLength(50).NotEmpty();
             RuleFor(x => x.Cvc).Matches("^[0-9]{3}$").NotEmpty();
