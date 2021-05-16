@@ -10,7 +10,7 @@ namespace CreditCardForm.UnitTests
         [Fact]
         public void ShouldReturnValid()
         {
-            var testCreditCard = new Faker<CreditCard>()
+            var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
@@ -26,7 +26,7 @@ namespace CreditCardForm.UnitTests
         [Fact]
         public void ShouldReturnInValidWhenNoGuid()
         {
-            var testCreditCard = new Faker<CreditCard>()
+            var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
@@ -41,7 +41,7 @@ namespace CreditCardForm.UnitTests
         [Fact]
         public void ShouldReturnInValidWhenNoName()
         {
-            var testCreditCard = new Faker<CreditCard>()
+            var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
@@ -56,7 +56,7 @@ namespace CreditCardForm.UnitTests
         [Fact]
         public void ShouldReturnInValidWhenNoNumber()
         {
-            var testCreditCard = new Faker<CreditCard>()
+            var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
@@ -71,7 +71,7 @@ namespace CreditCardForm.UnitTests
         [Fact]
         public void ShouldReturnInValidWhenNoCvv()
         {
-            var testCreditCard = new Faker<CreditCard>()
+            var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
@@ -86,7 +86,7 @@ namespace CreditCardForm.UnitTests
         [Fact]
         public void ShouldReturnInValidWhenNoDate()
         {
-            var testCreditCard = new Faker<CreditCard>()
+            var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
@@ -101,7 +101,7 @@ namespace CreditCardForm.UnitTests
         [Fact]
         public void ShouldReturnInValidWhenDateIsBefore()
         {
-            var testCreditCard = new Faker<CreditCard>()
+            var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
