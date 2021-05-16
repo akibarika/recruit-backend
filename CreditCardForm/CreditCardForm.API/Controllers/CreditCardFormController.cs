@@ -49,6 +49,12 @@ namespace CreditCardForm.API.Controllers
                 return new BadRequestObjectResult(stringBuilder.ToString());
             }
 
+            var creditCard = await _service.GetByCardNumber(request.CardNumber);
+            if (creditCard != null)
+            {
+                return new BadRequestObjectResult("Credit card number is exist, please enter a new credit card number");
+            }
+
             var card = new CreditCard()
             {
                 Id = Guid.NewGuid(),
@@ -57,6 +63,7 @@ namespace CreditCardForm.API.Controllers
                 Cvc = request.Cvc,
                 ExpireDate = request.ExpireDate,
             };
+
             card = await _service.AddNewCreditCard(card);
             return new OkObjectResult(card);
         }

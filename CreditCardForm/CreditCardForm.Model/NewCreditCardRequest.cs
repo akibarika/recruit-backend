@@ -2,8 +2,11 @@
 
 namespace CreditCardForm.Model
 {
-    public class NewCreditCardRequestDto : CreditCard
+    public class NewCreditCardRequestDto
     {
-        public DateTime WhenAdded { get; set; }
+        public string CardNumber { get; set; }
+        public string Name { get; set; }
+        public string Cvc { get; set; }
+        public DateTime ExpireDate { get; set; }
     }
 }

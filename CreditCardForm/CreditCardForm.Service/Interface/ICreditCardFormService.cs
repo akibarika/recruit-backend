@@ -11,5 +11,6 @@ namespace CreditCardForm.Service.Interface
         Task<IList<CreditCard>> GetAll();
         Task<CreditCard> Get(Guid id);
         Task<CreditCard> AddNewCreditCard(CreditCard card);
+        Task<CreditCard> GetByCardNumber(String number);
     }
 }

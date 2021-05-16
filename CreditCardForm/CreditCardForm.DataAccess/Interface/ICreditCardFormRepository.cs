@@ -10,5 +10,6 @@ namespace CreditCardForm.DataAccess.Interface
         Task<IList<CreditCard>> GetAll();
         Task<CreditCard> Get(Guid id);
         Task<CreditCard> Insert(CreditCard card);
+        Task<CreditCard> GetByCardNumber(string number);
     }
 }

@@ -25,6 +25,13 @@ namespace CreditCardForm.DataAccess.Concrete
             return card;
         }
 
+        public async Task<CreditCard> GetByCardNumber(string number)
+        {
+            var creditCards = await _creditCards.Find<CreditCard>(creditCard => creditCard.CardNumber == number)
+                .FirstOrDefaultAsync();
+            return creditCards;
+        }
+
         public async Task<CreditCard> Get(Guid id)
         {
             var creditCards = await _creditCards.Find<CreditCard>(creditCard => creditCard.Id == id)

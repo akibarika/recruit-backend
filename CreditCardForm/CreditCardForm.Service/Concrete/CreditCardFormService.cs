@@ -33,5 +33,11 @@ namespace CreditCardForm.Service.Concrete
             var creditCards = await _repo.GetAll();
             return creditCards;
         }
+        
+        public async Task<CreditCard> GetByCardNumber(String number)
+        {
+            var creditCard = await _repo.GetByCardNumber(number);
+            return creditCard;
+        }
     }
 }
