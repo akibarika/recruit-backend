@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CreditCardForm.DataAccess\CreditCardForm.DataAccess.csproj" />
+      <ProjectReference Include="..\CreditCardForm.Model\CreditCardForm.Model.csproj" />
+    </ItemGroup>
+
+</Project>
