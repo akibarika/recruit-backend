@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CreditCardForm.Model;
 using CreditCardForm.Service.Interface;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CreditCardForm.API.Controllers
@@ -19,19 +20,34 @@ namespace CreditCardForm.API.Controllers
             _service = service;
         }
 
+        /// <summary>
+        /// Get all data that has been stored
+        /// </summary>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IList<CreditCard>> GetAll()
         {
             return await _service.GetAll();
         }
 
+        /// <summary>
+        /// Get one of the input data stored
+        /// </summary>
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<CreditCard> Get(Guid id)
         {
             return await _service.Get(id);
         }
 
+        /// <summary>
+        /// Add a new card
+        /// </summary>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> AddNewCard(NewCreditCardRequestDto request)
         {
             var validator = new CreditCardValidator();

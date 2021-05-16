@@ -12,7 +12,6 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
                 .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
@@ -43,7 +42,6 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
                 .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
@@ -58,7 +56,6 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
                 .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
@@ -73,7 +70,6 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
@@ -88,7 +84,6 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
                 .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv());
@@ -103,7 +98,6 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Id, f => Guid.NewGuid())
                 .RuleFor(u => u.Name, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
                 .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
