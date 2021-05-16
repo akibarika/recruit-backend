@@ -2,7 +2,7 @@
 
 namespace CreditCardForm.Model
 {
-    public class NewCreditCardRequest : CreditCard
+    public class NewCreditCardRequestDto : CreditCard
     {
         public DateTime WhenAdded { get; set; }
     }
