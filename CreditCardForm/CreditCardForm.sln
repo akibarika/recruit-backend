@@ -1,10 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm", "CreditCardForm\CreditCardForm.csproj", "{A8949FB3-C507-48F9-A5D8-924ADD8F4323}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.API", "CreditCardForm.API\CreditCardForm.API.csproj", "{A8949FB3-C507-48F9-A5D8-924ADD8F4323}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.UnitTests", "CreditCardForm.UnitTests\CreditCardForm.UnitTests.csproj", "{63F6A116-BB70-4485-B8D1-C3EDD3FE9162}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.Model", "CreditCardForm.Model\CreditCardForm.Model.csproj", "{56DDE7D3-D03E-4490-B1EE-10367F835CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.Service", "CreditCardForm.Service\CreditCardForm.Service.csproj", "{986E52FC-0FDD-4C65-B2E3-4AEF09ED4339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.DataAccess", "CreditCardForm.DataAccess\CreditCardForm.DataAccess.csproj", "{81934EC9-36AD-44AA-82B4-6770F75AF977}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +28,13 @@ Global
 		{56DDE7D3-D03E-4490-B1EE-10367F835CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56DDE7D3-D03E-4490-B1EE-10367F835CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56DDE7D3-D03E-4490-B1EE-10367F835CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986E52FC-0FDD-4C65-B2E3-4AEF09ED4339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986E52FC-0FDD-4C65-B2E3-4AEF09ED4339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986E52FC-0FDD-4C65-B2E3-4AEF09ED4339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986E52FC-0FDD-4C65-B2E3-4AEF09ED4339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81934EC9-36AD-44AA-82B4-6770F75AF977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81934EC9-36AD-44AA-82B4-6770F75AF977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81934EC9-36AD-44AA-82B4-6770F75AF977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81934EC9-36AD-44AA-82B4-6770F75AF977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
