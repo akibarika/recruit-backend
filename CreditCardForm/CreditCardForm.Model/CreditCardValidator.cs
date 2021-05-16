@@ -3,7 +3,7 @@ using FluentValidation;
 
 namespace CreditCardForm.Model
 {
-    public class CreditCardValidator : AbstractValidator<CreditCard>
+    public class CreditCardValidator : AbstractValidator<NewCreditCardRequestDto>
     {
         public CreditCardValidator()
         {
