@@ -12,9 +12,9 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Name, (f) => f.Name.FullName())
+                .RuleFor(u => u.CardHolder, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
-                .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
+                .RuleFor(u => u.Cvv, f => f.Finance.CreditCardCvv())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
 
             var creditCardValidator = new CreditCardValidator();
@@ -27,9 +27,9 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Name, (f) => f.Name.FullName())
+                .RuleFor(u => u.CardHolder, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
-                .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
+                .RuleFor(u => u.Cvv, f => f.Finance.CreditCardCvv())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
 
             var creditCardValidator = new CreditCardValidator();
@@ -43,7 +43,7 @@ namespace CreditCardForm.UnitTests
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
-                .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
+                .RuleFor(u => u.Cvv, f => f.Finance.CreditCardCvv())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
 
             var creditCardValidator = new CreditCardValidator();
@@ -56,8 +56,8 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Name, (f) => f.Name.FullName())
-                .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
+                .RuleFor(u => u.CardHolder, (f) => f.Name.FullName())
+                .RuleFor(u => u.Cvv, f => f.Finance.CreditCardCvv())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
 
             var creditCardValidator = new CreditCardValidator();
@@ -70,7 +70,7 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Name, (f) => f.Name.FullName())
+                .RuleFor(u => u.CardHolder, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
 
@@ -84,9 +84,9 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Name, (f) => f.Name.FullName())
+                .RuleFor(u => u.CardHolder, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
-                .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv());
+                .RuleFor(u => u.Cvv, f => f.Finance.CreditCardCvv());
 
             var creditCardValidator = new CreditCardValidator();
             var result = creditCardValidator.Validate(testCreditCard);
@@ -98,9 +98,9 @@ namespace CreditCardForm.UnitTests
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
-                .RuleFor(u => u.Name, (f) => f.Name.FullName())
+                .RuleFor(u => u.CardHolder, (f) => f.Name.FullName())
                 .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
-                .RuleFor(u => u.Cvc, f => f.Finance.CreditCardCvv())
+                .RuleFor(u => u.Cvv, f => f.Finance.CreditCardCvv())
                 .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today.AddYears(-1), DateTime.Today));
 
             var creditCardValidator = new CreditCardValidator();

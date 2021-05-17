@@ -17,12 +17,12 @@ namespace CreditCardForm.Model
         /// <summary>
         /// Credit Card holder
         /// </summary>
-        public string Name { get; set; }
+        public string CardHolder { get; set; }
 
         /// <summary>
-        /// Credit card CVC
+        /// Credit card Cvv
         /// </summary>
-        public string Cvc { get; set; }
+        public string Cvv { get; set; }
 
         /// <summary>
         /// Credit card Expire Date

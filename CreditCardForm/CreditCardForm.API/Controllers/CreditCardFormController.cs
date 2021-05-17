@@ -75,8 +75,8 @@ namespace CreditCardForm.API.Controllers
             {
                 Id = Guid.NewGuid(),
                 CardNumber = request.CardNumber,
-                Name = request.Name,
-                Cvc = request.Cvc,
+                CardHolder = request.CardHolder,
+                Cvv = request.Cvv,
                 ExpireDate = request.ExpireDate,
             };
 
