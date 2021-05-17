@@ -18,7 +18,20 @@ This is the backend API for my frontend app.🚀🚀
 
 Please make sure .NET Core 3.1 installed.
 
+## MongoDB
+![1621216957689.png](1621216957689.png)
+
+Here is the overall view for my MongoDB dashboard.
+
+## TODO
+
+ - [ ] Better secured APIs
+ - [ ] Integration tests
+
+
 ## TLDR
+
+Apologized, being so super busy these days, and haven't finish for all. 🙇🙇
 
 ---
 
