@@ -10,7 +10,7 @@ This is the backend API for my frontend app.🚀🚀
 
 - MongoDB Driven
 
-- xUnit + Bogus + Fluent
+- xUnit + Bogus + Fluent + SpecFlow
 
 - Swagger API Documentation included
 
@@ -23,15 +23,22 @@ Please make sure .NET Core 3.1 installed.
 
 Here is the overall view for my MongoDB dashboard.
 
+## SpecFlow
+I used `SpecFlow+ Runner` as my test runner. You might need activate yourself when execute my tests with it for the first time
+
+![1621262113595.png](1621262113595.png)
+
+More details you can follow [this link](https://docs.specflow.org/projects/specflow-runner/en/latest/Installation/Installation.html)
+
 ## TODO
 
  - [ ] Better secured APIs
- - [ ] Integration tests
+ - [ ] More tests
 
 
 ## TLDR
 
-Apologized, being so super busy these days, and haven't finish for all. 🙇🙇
+Apologized, being so super busy these weeks, and haven't finish for all. 🙇🙇
 
 ---
 
