@@ -34,7 +34,7 @@ namespace CreditCardForm.Service.Concrete
             return creditCards;
         }
         
-        public async Task<CreditCard> GetByCardNumber(String number)
+        public async Task<CreditCard> GetByCardNumber(string number)
         {
             var creditCard = await _repo.GetByCardNumber(number);
             return creditCard;
