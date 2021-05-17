@@ -23,22 +23,7 @@ namespace CreditCardForm.UnitTests
         }
 
         [Fact]
-        public void ShouldReturnInValidWhenNoGuid()
-        {
-            var testCreditCard = new Faker<NewCreditCardRequestDto>()
-                .StrictMode(false)
-                .RuleFor(u => u.CardHolder, (f) => f.Name.FullName())
-                .RuleFor(u => u.CardNumber, f => f.Finance.CreditCardNumber())
-                .RuleFor(u => u.Cvv, f => f.Finance.CreditCardCvv())
-                .RuleFor(u => u.ExpireDate, f => f.Date.Between(DateTime.Today, DateTime.Today.AddYears(1)));
-
-            var creditCardValidator = new CreditCardValidator();
-            var result = creditCardValidator.Validate(testCreditCard);
-            Assert.False(result.IsValid);
-        }
-
-        [Fact]
-        public void ShouldReturnInValidWhenNoName()
+        public void ShouldReturnInvalidWhenNoName()
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
@@ -52,7 +37,7 @@ namespace CreditCardForm.UnitTests
         }
 
         [Fact]
-        public void ShouldReturnInValidWhenNoNumber()
+        public void ShouldReturnInvalidWhenNoNumber()
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
@@ -66,7 +51,7 @@ namespace CreditCardForm.UnitTests
         }
 
         [Fact]
-        public void ShouldReturnInValidWhenNoCvv()
+        public void ShouldReturnInvalidWhenNoCvv()
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
@@ -80,7 +65,7 @@ namespace CreditCardForm.UnitTests
         }
 
         [Fact]
-        public void ShouldReturnInValidWhenNoDate()
+        public void ShouldReturnInvalidWhenNoDate()
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
@@ -94,7 +79,7 @@ namespace CreditCardForm.UnitTests
         }
 
         [Fact]
-        public void ShouldReturnInValidWhenDateIsBefore()
+        public void ShouldReturnInvalidWhenDateIsBefore()
         {
             var testCreditCard = new Faker<NewCreditCardRequestDto>()
                 .StrictMode(false)
