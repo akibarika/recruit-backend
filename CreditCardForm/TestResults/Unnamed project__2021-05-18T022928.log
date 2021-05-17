@@ -1,0 +1,224 @@
+﻿2021-05-18T02:29:28.7656345+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-18T02:29:28.7659287+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.7.3 in Framework netcore31 in x64 mode execution started
+2021-05-18T02:29:28.7659376+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-18T02:29:28.7678203+12:00;VSTestExecutionThread;Info;Current UserName: 'Rika', MachineName: 'RIKATAN-PC'
+2021-05-18T02:29:28.8144811+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Specs.dll
+2021-05-18T02:29:28.8148000+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\TestResults" (default)
+2021-05-18T02:29:28.8148862+12:00;VSTestExecutionThread;Info;Profile: 
+2021-05-18T02:29:28.8702109+12:00;VSTestExecutionThread;Info;Log file path: C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\TestResults\Unnamed project__2021-05-18T022928.log
+2021-05-18T02:29:28.8774183+12:00;Thread#12;Info;Checking activation
+2021-05-18T02:29:28.9876340+12:00;Thread#12;Info;Activated.
+2021-05-18T02:29:28.9879050+12:00;Thread#12;Info;Activation check completed
+2021-05-18T02:29:28.9880037+12:00;Thread#12;Info;Starting test run
+2021-05-18T02:29:29.0607724+12:00;Thread#12;Info;Discovering target: Default
+2021-05-18T02:29:29.0609144+12:00;Thread#12;Info;Discovering tests from assembly: C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Specs.dll
+2021-05-18T02:29:29.1411509+12:00;Thread#12;Info;Discovered tests from assembly: C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Specs.dll
+2021-05-18T02:29:29.1429700+12:00:Test Suite Dump
+2021-05-18T02:29:29.1444643+12:00:#0: Unnamed project/ - 
+2021-05-18T02:29:29.1444855+12:00:#1: Default - 
+2021-05-18T02:29:29.1444879+12:00:#2: CreditCardForm.Specs - 
+2021-05-18T02:29:29.1444895+12:00:#3: CreditCard - 
+2021-05-18T02:29:29.1454463+12:00:#4: Get all cards - TestAssembly:CreditCardForm.Specs/Feature:CreditCard/Scenario:Get+all+cards
+2021-05-18T02:29:29.1455014+12:00:End: Test Suite Dump
+2021-05-18T02:29:29.1593636+12:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-18T02:29:29.1609537+12:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-18T02:29:29.1610670+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-05-18T02:29:29.1639338+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-18T02:29:29.1639502+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-18T02:29:29.1639521+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-05-18T02:29:29.1639549+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-05-18T02:29:29.1645551+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-05-18T02:29:29.1657946+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-18T02:29:29.1677278+12:00:Thread #0: creating new test thread executor for CreditCardForm.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-18T02:29:29.1709727+12:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-18T02:29:29.1711706+12:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-18T02:29:29.1732019+12:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-18T02:29:29.1748209+12:00:starting Out Of Process Executor
+2021-05-18T02:29:29.1768977+12:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:29.1792360+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-05-18T02:29:29.1792549+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-05-18T02:29:29.1802453+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:29.1806054+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-05-18T02:29:29.1806928+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-05-18T02:29:29.1807217+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:29.1809261+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-05-18T02:29:29.1814012+12:00:Tfm: netcoreapp3.1
+2021-05-18T02:29:29.1814116+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-05-18T02:29:29.1814138+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-05-18T02:29:29.1814724+12:00:[AssemblyCache] Found file 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-05-18T02:29:29.1817951+12:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-05-18T02:29:29.1823409+12:00:Starting callback TCP Rpc server
+2021-05-18T02:29:29.2003265+12:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-18T02:29:29.2003976+12:00:Started callback TCP Rpc server on port 32768
+2021-05-18T02:29:29.2004008+12:00:Starting logger TCP Rpc server
+2021-05-18T02:29:29.2034985+12:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-18T02:29:29.2035373+12:00:Started logger TCP Rpc server on port 32769
+2021-05-18T02:29:29.2750834+12:00:Executing test executor at 'dotnet' 'exec "C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 19856 --uniqueId "2021-05-18T022928" --outputFolder "C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:29.2814821+12:00:Executor with PID 19592 has been started successfully.
+2021-05-18T02:29:29.2839078+12:00:Out of Process Executor 19592 started
+2021-05-18T02:29:29.2839226+12:00:Waiting for endpoint
+2021-05-18T02:29:29.5483686+12:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=zh-CN, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:29.5483898+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2021-05-18T02:29:29.5483965+12:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2021-05-18T02:29:29.5484016+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:29.5484043+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2021-05-18T02:29:29.5484482+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2021-05-18T02:29:29.5484855+12:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:29.5484911+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-05-18T02:29:29.5485205+12:00:Tfm: netcoreapp3.1
+2021-05-18T02:29:29.5485268+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-05-18T02:29:29.5485304+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2021-05-18T02:29:29.5485827+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2021-05-18T02:29:29.5486257+12:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-05-18T02:29:29.5554442+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-05-18T02:29:29.5554625+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\StreamJsonRpc.resources.dll'
+2021-05-18T02:29:29.5555157+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\StreamJsonRpc.resources.exe'
+2021-05-18T02:29:29.5555651+12:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-05-18T02:29:29.5557327+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-05-18T02:29:29.5557418+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\StreamJsonRpc.resources.dll'
+2021-05-18T02:29:29.5557928+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\StreamJsonRpc.resources.exe'
+2021-05-18T02:29:29.5558350+12:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-05-18T02:29:29.5559916+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-05-18T02:29:29.5559998+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\StreamJsonRpc.resources.dll'
+2021-05-18T02:29:29.5560455+12:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\StreamJsonRpc.resources.exe'
+2021-05-18T02:29:29.5560850+12:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-05-18T02:29:29.5567507+12:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:29.5569917+12:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=zh, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:29.5576119+12:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:29.5576232+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-05-18T02:29:29.5576410+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-05-18T02:29:29.5576510+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:29.5576526+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-05-18T02:29:29.5576894+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-05-18T02:29:29.5577234+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:29.5577268+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-05-18T02:29:29.5577378+12:00:Tfm: netcoreapp3.1
+2021-05-18T02:29:29.5577412+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-05-18T02:29:29.5577425+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-05-18T02:29:29.5577844+12:00:[AssemblyCache] Found file 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-05-18T02:29:29.5583298+12:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-05-18T02:29:29.7561571+12:00:Remote executor port received: 32770
+2021-05-18T02:29:29.7564437+12:00:Creating executor TCP client on port 32770
+2021-05-18T02:29:29.7568109+12:00:Created executor TCP client on port 32770
+2021-05-18T02:29:29.7568178+12:00:Connecting to remote executor TCP server
+2021-05-18T02:29:29.7576876+12:00:Connected remote executor TCP server
+2021-05-18T02:29:29.7578825+12:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-18T02:29:29.7578918+12:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-18T02:29:29.8915158+12:00:2021-05-18T02:29:29.8905326+12:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Specs.dll on test thread #0
+2021-05-18T02:29:29.8958293+12:00:Endpoint 19592 started
+2021-05-18T02:29:29.9113151+12:00:2021-05-18T02:29:29.9110112+12:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-18T02:29:30.0216633+12:00:2021-05-18T02:29:30.0213773+12:00:Assembly resolving TechTalk.SpecFlow, Version=3.7.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-05-18T02:29:30.0246792+12:00:2021-05-18T02:29:30.0243358+12:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-05-18T02:29:30.0275764+12:00:2021-05-18T02:29:30.0271760+12:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\Rika\.nuget\packages\specflow\3.7.13\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-05-18T02:29:30.1278516+12:00:2021-05-18T02:29:30.1272641+12:00:Thread#0:T:-> Loading plugin C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Specs.dll
+2021-05-18T02:29:30.1299187+12:00:2021-05-18T02:29:30.1294360+12:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-05-18T02:29:30.1309580+12:00:2021-05-18T02:29:30.1301886+12:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2021-05-18T02:29:30.1319079+12:00:2021-05-18T02:29:30.1314191+12:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\Rika\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2021-05-18T02:29:30.1716656+12:00:2021-05-18T02:29:30.1713280+12:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-05-18T02:29:30.1720725+12:00:2021-05-18T02:29:30.1718698+12:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2021-05-18T02:29:30.1725544+12:00:2021-05-18T02:29:30.1723486+12:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\Rika\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2021-05-18T02:29:30.1798796+12:00:2021-05-18T02:29:30.1795436+12:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in CreditCardForm.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-05-18T02:29:30.1804302+12:00:2021-05-18T02:29:30.1801749+12:00:Thread#0:T:-> Loading plugin C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2021-05-18T02:29:30.1823684+12:00:2021-05-18T02:29:30.1820334+12:00:Assembly resolving LivingDoc.Dtos, Version=3.7.0.0, Culture=neutral, PublicKeyToken=null
+2021-05-18T02:29:30.1827195+12:00:2021-05-18T02:29:30.1825727+12:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-05-18T02:29:30.1832092+12:00:2021-05-18T02:29:30.1830026+12:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\Rika\.nuget\packages\specflow.plus.livingdocplugin\3.7.141\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-05-18T02:29:30.1856762+12:00:2021-05-18T02:29:30.1853266+12:00:Thread#0:T:-> Loading plugin C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-18T02:29:30.1906409+12:00:2021-05-18T02:29:30.1903015+12:00:Thread#0:T:-> Using default config
+2021-05-18T02:29:30.2009577+12:00:2021-05-18T02:29:30.2005777+12:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-05-18T02:29:30.2013653+12:00:2021-05-18T02:29:30.2012049+12:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-05-18T02:29:30.2019046+12:00:2021-05-18T02:29:30.2016747+12:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\Rika\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-05-18T02:29:30.2029329+12:00:2021-05-18T02:29:30.2026329+12:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-05-18T02:29:30.2033220+12:00:2021-05-18T02:29:30.2031101+12:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-05-18T02:29:30.2038570+12:00:2021-05-18T02:29:30.2036387+12:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\Rika\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-05-18T02:29:30.2124992+12:00:2021-05-18T02:29:30.2121867+12:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:30.2128329+12:00:2021-05-18T02:29:30.2126565+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-05-18T02:29:30.2133408+12:00:2021-05-18T02:29:30.2131653+12:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\Rika\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-05-18T02:29:30.2453900+12:00:2021-05-18T02:29:30.2449414+12:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2021-05-18T02:29:30.2458733+12:00:2021-05-18T02:29:30.2456476+12:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2021-05-18T02:29:30.2464240+12:00:2021-05-18T02:29:30.2461978+12:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\Rika\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2021-05-18T02:29:30.4209714+12:00:Thread#0: Test #4/0 is started on thread #0
+2021-05-18T02:29:30.4463161+12:00:2021-05-18T02:29:30.4456290+12:00:Thread#0:B:Given cards pre-loaded
+2021-05-18T02:29:30.4670149+12:00:2021-05-18T02:29:30.4666745+12:00:Thread#0:T:done: CreditCardDefinitions.CardPreloaded() (0.0s)
+2021-05-18T02:29:30.4687805+12:00:2021-05-18T02:29:30.4685118+12:00:Thread#0:B:When get all cards
+2021-05-18T02:29:30.4701731+12:00:2021-05-18T02:29:30.4698986+12:00:Assembly resolving CreditCardForm.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2021-05-18T02:29:30.4705551+12:00:2021-05-18T02:29:30.4703638+12:00:[AssemblyCache] Trying to resolve 'CreditCardForm.Model' from .deps.json file
+2021-05-18T02:29:30.4713058+12:00:2021-05-18T02:29:30.4711501+12:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'CreditCardForm.Model', found in dependency map, but unable to resolve a path in ['CreditCardForm.Model.dll']
+2021-05-18T02:29:30.4715840+12:00:2021-05-18T02:29:30.4714395+12:00:[AssemblyCache] Could not resolve 'CreditCardForm.Model' from .deps.json
+2021-05-18T02:29:30.4730938+12:00:2021-05-18T02:29:30.4727614+12:00:[AssemblyCache] Trying to resolve 'CreditCardForm.Model' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:30.4759939+12:00:2021-05-18T02:29:30.4756874+12:00:[AssemblyCache] Trying to resolve 'CreditCardForm.Model' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Model.dll'
+2021-05-18T02:29:30.4764547+12:00:2021-05-18T02:29:30.4762330+12:00:[AssemblyCache] Found file 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Model.dll' for assembly 'CreditCardForm.Model'
+2021-05-18T02:29:30.4771034+12:00:2021-05-18T02:29:30.4768971+12:00:[AssemblyCache] Resolved 'CreditCardForm.Model' to C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\CreditCardForm.Model.dll
+2021-05-18T02:29:30.4775952+12:00:2021-05-18T02:29:30.4774116+12:00:Assembly resolving Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2021-05-18T02:29:30.4780110+12:00:2021-05-18T02:29:30.4777835+12:00:[AssemblyCache] Trying to resolve 'Newtonsoft.Json' from .deps.json file
+2021-05-18T02:29:30.4784735+12:00:2021-05-18T02:29:30.4782883+12:00:[AssemblyCache] Resolved 'Newtonsoft.Json' to 'C:\Users\Rika\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll'
+2021-05-18T02:29:32.1697357+12:00:2021-05-18T02:29:32.1678783+12:00:Thread#0:T:done: CreditCardDefinitions.GetAllCards() (1.7s)
+2021-05-18T02:29:32.1722765+12:00:2021-05-18T02:29:32.1714259+12:00:Thread#0:B:Then should have 3 cards
+2021-05-18T02:29:32.1777267+12:00:2021-05-18T02:29:32.1768765+12:00:Assembly resolving FluentAssertions, Version=5.10.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2021-05-18T02:29:32.1792784+12:00:2021-05-18T02:29:32.1786096+12:00:[AssemblyCache] Trying to resolve 'FluentAssertions' from .deps.json file
+2021-05-18T02:29:32.1806779+12:00:2021-05-18T02:29:32.1800437+12:00:[AssemblyCache] Resolved 'FluentAssertions' to 'C:\Users\Rika\.nuget\packages\fluentassertions\5.10.3\lib\netcoreapp2.1\FluentAssertions.dll'
+2021-05-18T02:29:32.1892812+12:00:2021-05-18T02:29:32.1885000+12:00:Thread#0:T:done: CreditCardDefinitions.ThenShouldHaveXCards(3) (0.0s)
+2021-05-18T02:29:32.2019608+12:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-18T02:29:32.2020392+12:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-18T02:29:32.2020429+12:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-05-18T02:29:32.2020461+12:00:Thread#0:Scheduler: No more tests for thread
+2021-05-18T02:29:32.2600711+12:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1.8380521 seconds
+2021-05-18T02:29:32.2685374+12:00:2021-05-18T02:29:32.2683183+12:00:Got Deinitialize Signal
+2021-05-18T02:29:32.2720315+12:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-05-18T02:29:32.2727603+12:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-05-18T02:29:32.2741059+12:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-05-18T02:29:32.2760689+12:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=zh-CN, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:32.2761061+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-05-18T02:29:32.2761101+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-05-18T02:29:32.2761149+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:32.2761168+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-05-18T02:29:32.2761434+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-05-18T02:29:32.2761643+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1'
+2021-05-18T02:29:32.2761704+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-05-18T02:29:32.2762104+12:00:Tfm: netcoreapp3.1
+2021-05-18T02:29:32.2762133+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-05-18T02:29:32.2762146+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-05-18T02:29:32.2762436+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-05-18T02:29:32.2762743+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\CreditCardForm.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-05-18T02:29:32.2768903+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-05-18T02:29:32.2769014+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\System.Diagnostics.Process.resources.dll'
+2021-05-18T02:29:32.2769538+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\System.Diagnostics.Process.resources.exe'
+2021-05-18T02:29:32.2769985+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-05-18T02:29:32.2771701+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-05-18T02:29:32.2771782+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\System.Diagnostics.Process.resources.dll'
+2021-05-18T02:29:32.2772315+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\System.Diagnostics.Process.resources.exe'
+2021-05-18T02:29:32.2772758+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-05-18T02:29:32.2774144+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-05-18T02:29:32.2774218+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\System.Diagnostics.Process.resources.dll'
+2021-05-18T02:29:32.2774485+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\System.Diagnostics.Process.resources.exe'
+2021-05-18T02:29:32.2774700+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-05-18T02:29:32.2778150+12:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:32.2780792+12:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=zh, PublicKeyToken=b03f5f7f11d50a3a
+2021-05-18T02:29:32.2841702+12:00:Thread#-1:Scheduler: get next test for thread -1
+2021-05-18T02:29:32.2842050+12:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-18T02:29:32.2842124+12:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-05-18T02:29:32.2858367+12:00;Thread#12;Info;test run finished
+2021-05-18T02:29:32.2859968+12:00;Thread#12;Info;publishing test results
+2021-05-18T02:29:32.2862240+12:00;Thread#12;Info;Not publishing results.
+2021-05-18T02:29:32.2864172+12:00;Thread#12;Info;test results published
+2021-05-18T02:29:32.2865123+12:00;Thread#12;Info;generating reports
+2021-05-18T02:29:32.3491783+12:00;Thread#12;Info;Starting external report generation process
+2021-05-18T02:29:33.7339797+12:00;Thread#12;Info;Successfully generated reports.
+2021-05-18T02:29:33.7360129+12:00;Thread#12;Info;Successfully generated reports
+2021-05-18T02:29:33.7439540+12:00:Total: 1
+2021-05-18T02:29:33.7455127+12:00:Succeeded: 1
+2021-05-18T02:29:33.7458833+12:00:Ignored: 0
+2021-05-18T02:29:33.7461869+12:00:Pending: 0
+2021-05-18T02:29:33.7461987+12:00:Skipped: 0
+2021-05-18T02:29:33.7464827+12:00:Failed: 0
+2021-05-18T02:29:33.7523769+12:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-05-18T02:29:33.7527131+12:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Rika\RiderProjects\recruit-backend\CreditCardForm\TestResults\Unnamed project__2021-05-18T022928.html'
+========== End of log file ==========

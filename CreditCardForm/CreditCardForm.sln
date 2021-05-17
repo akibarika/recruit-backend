@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.Service", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.DataAccess", "CreditCardForm.DataAccess\CreditCardForm.DataAccess.csproj", "{81934EC9-36AD-44AA-82B4-6770F75AF977}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardForm.Specs", "CreditCardForm.Specs\CreditCardForm.Specs.csproj", "{C744EC35-4D0C-469A-9EBE-1E0785F6067F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{81934EC9-36AD-44AA-82B4-6770F75AF977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81934EC9-36AD-44AA-82B4-6770F75AF977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81934EC9-36AD-44AA-82B4-6770F75AF977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C744EC35-4D0C-469A-9EBE-1E0785F6067F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C744EC35-4D0C-469A-9EBE-1E0785F6067F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C744EC35-4D0C-469A-9EBE-1E0785F6067F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C744EC35-4D0C-469A-9EBE-1E0785F6067F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
